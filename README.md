@@ -1,29 +1,28 @@
-# node-react-starter
-A simple fullstack starter application using Node.js, Express.js, React.js and MongoDB
+# reactjs-nodejs-project
+Node.js, Express.js, React.js va MongoDB-dan foydalangan holda oddiy Full Stack boshlang'ich dastur.
 
-To run this project you need to add the backend and frontend dependencies.
-In the root of the project run the following command
-
+Ushbu loyihani amalga oshirish uchun front ent va back endda node paketlarini qo'shishingiz kerak.
+Loyihani ishlashi quyidagi buyruqni bajaring
 ```
 $ npm install
 ```
 
-Then, navigate to the client directory and run the following command:
+Keyin, client katalogiga o'ting va quyidagi buyruqni bajaring:
 
 ```
 recommended
 $ yarn
 ```
-or
+yoki
 ```
 npm install
 ```
 
-### Running the application
+### Lohihani ishga tushirish
 
-*To run this application, you must have MongoDB up and running*
+* Ushbu loyihani ishga tushirish uchun siz MongoDB-ni o'rnatishingiz va ishga tushirishingiz kerak *
 
-To run the application, use the following command:
+Ilovani ishga tushirish uchun server tomonida quyidagi buyruqdan foydalaning: 
 
 ```
 $ npm run dev
