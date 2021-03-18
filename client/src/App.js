@@ -35,7 +35,7 @@ function App() {
         {(products && products.length > 0) ? (
           products.map(product => renderProduct(product))
         ) : (
-          <h2>Hech narsa topilmadi</h2>
+          <h2>Hech narsa topilmadi....</h2>
         )}
       </ul>
     </div>
