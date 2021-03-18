@@ -35,10 +35,11 @@ function App() {
         {(products && products.length > 0) ? (
           products.map(product => renderProduct(product))
         ) : (
-          <p>No products found</p>
+          <h2>Hech narsa topilmadi</h2>
         )}
       </ul>
     </div>
+    
   );
 }
 

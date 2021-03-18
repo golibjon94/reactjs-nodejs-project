@@ -11,23 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.container{
-  width: 150px;
-  height: 100px;
-  
+.App{
   align-items: center;
-  background-color: darkgrey;
+  background-color: gray;
+}
+.container{
+  float: left;
+  border: 2px solid rgb(14, 141, 99);
+  width: 350px;
+  height: 450px;
+  margin: 30px;
+  text-align: center;
+  background: url(./images/aurora2.jpg) no-repeat center;
+
+  animation: container-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
   
  
 
 }
-li h3{
-  align-items: center;
-  color: aqua;
-  border: 1px solid red;
+h3{
+  color: rgb(255, 94, 0);
+  padding-top: 30px;
 
 }
-.app{
-  align-items: center;
-  flex-wrap: wrap;
-}
+
